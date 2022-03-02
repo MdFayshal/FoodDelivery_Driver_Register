@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Rotunda';
+    src: local('Rotunda Bold'), local('Rotunda-Bold'),
+        url('/fonts/Rotunda-Bold.woff2') format('woff2'),
+        url('/fonts/Rotunda-Bold.woff') format('woff'),
+        url('/fonts/Rotunda-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rotunda';
+    src: local('Rotunda Medium'), local('Rotunda-Medium'),
+        url('/fonts/Rotunda-Medium.woff2') format('woff2'),
+        url('/fonts/Rotunda-Medium.woff') format('woff'),
+        url('/fonts/Rotunda-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rotunda';
+    src: local('Rotunda Regular'), local('Rotunda-Regular'),
+        url('/fonts/Rotunda-Regular.woff2') format('woff2'),
+        url('/fonts/Rotunda-Regular.woff') format('woff'),
+        url('/fonts/Rotunda-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    font-family: 'Rotunda',sans-serif;
+}
+.footer{
+    background: #fff;
+    
+}
+.footer ul li , .footer ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 19px;
+    color: #272C2F !important;
+    font-weight: 500;
+   
+}
+.footer ol, ul {
+    padding-left: 3rem;
+}
+.footer ul li {
+    margin-top: 10px;
+}
+
+.footer img.f-logo{
+    height: 30px;
+    margin: 10px 0;
+    padding-left: 3rem;
+}
+.f-icon a i{
+    padding-right: 15px;
+}
+.f-img a img{
+    height: 30px;
+    padding-right: 15px;
+    margin-top: 10px;
+    
+
+}
+/* =========================================================  Media Query max-width: 991x =============================================================== */
+@media only screen and (max-width: 991px) {
+
+}
+/* =========================================================  Media Query max-width: 767x =============================================================== */
+@media only screen and (max-width: 767px) {
+
+}
+/* =========================================================  Media Query max-width: 576px =============================================================== */
+@media only screen and (max-width: 576px) {
+
+
+    
+}
