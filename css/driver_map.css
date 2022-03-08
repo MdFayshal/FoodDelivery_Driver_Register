@@ -27,12 +27,19 @@
     font-weight: 400;
     font-style: normal;
 }
+
 * {
-    font-family: 'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
 }
+
 body {
     background-color: #FE6B01;
 
+}
+
+.driver-map {
+    background-color: #fff;
+    border-radius: 16px;
 }
 
 .map-container-2 {
@@ -48,4 +55,536 @@ body {
     height: 100%;
     width: 100%;
     position: absolute;
+}
+
+.map-left {
+    padding: 0 30px;
+}
+
+.map-menu {
+    background-color: #fff !important;
+}
+
+.map-menu ul li {
+    width: 100% !important;
+    border-bottom: 1px solid #AAAAAA;
+    padding: 0;
+    margin: 0;
+
+}
+
+.map-menu ul li:last-child {
+    width: 100% !important;
+    border-bottom: 0px solid #AAAAAA;
+    padding: 0;
+    margin: 0;
+
+}
+
+.map-menu-item a img {
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+    object-fit: contain;
+    /* ++++++++++++++++++++++++========== TO fixed blury effect of image ==============================    */
+    image-rendering: -moz-crisp-edges;
+    /* Firefox */
+    image-rendering: -o-crisp-edges;
+    /* Opera */
+    image-rendering: -webkit-optimize-contrast;
+    /* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    /* IE (non-standard property) */
+}
+
+span.map-nav-amount {
+    background-color: #ffffff;
+    color: #000;
+    font-size: 10px;
+    line-height: 0;
+    padding: 10px 15px;
+    margin-left: 15px;
+    border-radius: 14px;
+    margin-right: 0px;
+
+}
+
+.item-btn-R-icon {
+    float: right;
+    color: #FE6B01;
+    margin-left: 10px;
+    font-size: 10px;
+    margin-top: 15px;
+    padding-right: 5px;
+
+}
+
+.item-btn-L-icon {
+    background-color: #FE6B01;
+    color: #fff;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.item-btn-name {
+    background-color: #ffffff;
+    color: #FE6B01 !important;
+    font-size: 14px;
+    padding: 10px 20px 10px 10px;
+    float: left;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.item-btn-name:hover {
+    background-color: #FE6B01;
+    color: #fff !important;
+    font-size: 14px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.active .item-btn-name {
+    background-color: #FE6B01;
+    color: #fff !important;
+    font-size: 14px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* sidebar-icon */
+.list-group-item.dropend a.text-decoration-none.show .item-btn-R-icon:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    border: 20px solid transparent;
+    border-left: 20px solid #f5f5f5;
+    -webkit-transition: border-left-color .3s ease-out;
+    transition: border-left-color .3s ease-out;
+}
+
+.dropdown i.fa-solid.fa-angle-down {
+    float: right;
+    margin-top: 7px;
+    background-color: #FE6B01;
+    padding: 1px 2px 1px 2px;
+    height: 10px;
+    width: 10px;
+    font-size: 8px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+
+
+a.map-user-action:hover {
+    color: #000;
+}
+
+.map-numbr-title {
+    color: #000000;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.map-number {
+    background-color: #FE6B01;
+    color: #fff;
+    border-radius: 25px;
+    padding: 15px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.redem {
+    padding: 30px 0px;
+    border-top: 1px dashed #AAAAAA;
+    border-bottom: 1px dashed #AAAAAA;
+}
+
+.redem-icon {
+    font-size: 22px;
+    color: #8A8889;
+}
+
+.redem-number {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    margin: 5px 0px;
+}
+
+.redem-name {
+    color: #8A8889;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    margin: 5px 0px;
+
+}
+
+.redem-money {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0px;
+    margin-top: 15px;
+
+}
+
+.redem-btn {
+    background-color: #FE6B01;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+.redem-btn:hover {
+    background-color: #FE6B01;
+    color: #ffffff;
+}
+
+.google-map-contain {
+    position: relative;
+
+
+}
+
+
+.google-map {
+    height: auto;
+
+}
+
+.map-bottom {
+    background-color: #fff !important;
+    position: relative;
+    border: 1px solid #CCCCCC;
+    height: 105px;
+    padding: 40px 10px;
+    ;
+}
+
+.map-bottom h2 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24x;
+
+    color: #828282;
+}
+
+.map-botom-distance {
+    color: #039AE3;
+}
+
+.map-avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid #FE6B01;
+    margin-top: 5px;
+}
+
+.map-profile-icon {
+    margin-top: 15px;
+}
+
+.map-profile-rating {
+    background-color: #FFEEE7;
+    padding: 5px 10px;
+    border-radius: 11px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.map-user-action {
+    font-size: 12px;
+    color: #000;
+    line-height: 9px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.map_user-id {
+    font-size: 10px;
+    line-height: 5px;
+    font-weight: 400;
+    color: #4F4699;
+    margin-right: -45px;
+    margin-top: 3px;
+}
+
+.map-user-active {
+    color: #000;
+    font-size: 7px;
+    line-height: 9px;
+
+
+}
+
+.map-user-active i {
+    color: #00A552;
+    font-size: 10px;
+}
+
+.map-helpline img {
+    height: 35px;
+    width: auto;
+    object-fit: contain;
+    /* ++++++++++++++++++++++++========== TO fixed blury effect of image ==============================    */
+    image-rendering: -moz-crisp-edges;
+    /* Firefox */
+    image-rendering: -o-crisp-edges;
+    /* Opera */
+    image-rendering: -webkit-optimize-contrast;
+    /* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    /* IE (non-standard property) */
+
+}
+
+
+
+.map-helpline i {
+    color: #fff;
+    background-color: #4F4699;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.row.row-cols-3.mt-5.map-helpline {
+    padding: 0 20px;
+}
+
+.map-helpline-title {
+    background-color: #FE6B01;
+    color: #fff;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.map-user-active-title {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.map-user-active-time {
+    margin-left: 15px;
+    font-size: 10px;
+}
+
+.map-bike-select-btn i {
+    font-size: 16px;
+
+}
+
+.map-bike-select-btn h6 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.map-bike-select-btn p {
+    color: #A5A5A5;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 400;
+
+    margin: 20px 0px;
+
+}
+
+.car-btn {
+    background-color: #F5F6FA;
+    color: #3D4956;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.map-bike-select-btn .car-btn .map-car-i i {
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.map-bike-select-btn .active .car-q-icon i {
+    color: #4F4699;
+}
+
+.map-car-mn {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.map-car-sn {
+    font-size: 10px;
+    line-height: 10px;
+}
+
+/* .map-bike-select-btn .col {
+    background-image: url('../Images/btn-bg.png');
+    box-shadow: 3px 3px 6px;
+} */
+.map-bike-select-btn .col .bike-select-btn {
+    width: 80px;
+    padding: 20px 0px;
+}
+
+/* .map-bike-select-btn .col .bike-select-btn.active:after {
+    display: block;
+    content: "";
+    position: relative;
+    top: 25px;
+    right: -15px;
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    border: 15px solid transparent;
+    border-left: 20px solid #F5F6FA;
+    -webkit-transition: border-left-color .3s ease-out;
+    transition: border-left-color .3s ease-out;
+    transform: rotate(100deg);
+} */
+/* .map-bike-select-btn .col .bike-select-btn:hover:after {
+    display: block;
+    content: "";
+    position: relative;
+    top: 25px;
+    right: -15px;
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    border: 15px solid transparent;
+    border-left: 20px solid #F5F6FA;
+    -webkit-transition: border-left-color .3s ease-out;
+    transition: border-left-color .3s ease-out;
+    transform: rotate(100deg);
+} */
+.map-bike-select-btn .col .bike-select-btn:hover {
+    background-color: #F5F6FA;
+    box-shadow: 3px 3px 6px #707070;
+    padding: 20px 0 10px 0px;
+    border-radius: 25px;
+}
+
+.map-bike-select-btn .col .bike-select-btn.active {
+    background-color: #F5F6FA;
+    box-shadow: 3px 3px 6px #707070;
+    padding: 20px 0 10px 0px;
+    border-radius: 25px;
+}
+
+.map-road-icon {
+    color: #B8BABE;
+    margin-top: 90px;
+}
+
+.map-road-icon p.text-end {
+    margin: 0;
+}
+
+.line {
+    border-left: 1px solid #B8BABE;
+    height: 70px;
+
+    left: 60%;
+    margin-left: 15px;
+    top: 0;
+}
+
+.location-crosshairs {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    color: #4E4599;
+    padding: 5px;
+    border: 1px solid #C1C1C1;
+    font-size: 14px;
+}
+
+.new2 {
+    border: 1px dashed #707070;
+    margin-top: 10px;
+}
+
+.s-place {
+    margin-top: 80px;
+
+
+}
+
+.s-place-name {
+    margin-left: 20px;
+    float: left;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.s-L-icon {
+    color: #4E4599;
+    float: left;
+
+}
+
+.s-R-icon {
+    background-color: #F4F5FA;
+    padding: 3px 10px;
+    border-radius: 25px;
+    float: right;
+    color: #000;
+    font-size: 9px;
+}
+
+.area {
+    margin-top: 50px;
+}
+
+.area-info {
+    border-bottom: 2px dashed #AAAAAA;
+    margin: 0 10px;
+}
+
+.area-icon {
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.area-name {
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.area-time-km {
+    color: #AAAAAA;
+    font-size: 10px;
+    margin-left: 20px;
 }

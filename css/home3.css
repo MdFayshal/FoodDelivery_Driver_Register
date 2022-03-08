@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Bold'), local('Rotunda-Bold'),
@@ -7,7 +6,8 @@
         url('/fonts/Rotunda-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Medium'), local('Rotunda-Medium'),
@@ -27,15 +27,17 @@
     font-weight: 400;
     font-style: normal;
 }
+
 * {
-    font-family: 'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
 }
 
-nav ul li{
+nav ul li {
     margin-top: 20px;
 }
-.nav-item a.nav-link{
-    font-family:'Rotunda',sans-serif;
+
+.nav-item a.nav-link {
+    font-family: 'Rotunda', sans-serif;
     color: #000 !important;
     font-weight: bold;
     border-radius: 25px;
@@ -43,6 +45,7 @@ nav ul li{
     margin: 5px;
 
 }
+
 /* nav ln icon */
 span.flag-icon {
     background-position: center;
@@ -54,142 +57,161 @@ span.flag-icon {
     padding-top: 4px;
 }
 
-.nav-item a.nav-link.active, .nav-item a.nav-link:hover{
+.nav-item a.nav-link.active,
+.nav-item a.nav-link:hover {
     border-radius: 25px;
-    font-family:'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
     color: rgb(255, 255, 255) !important;
     font-weight: bold;
     background-color: #000 !important;
-    
+
 
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
     background-color: #000000;
     color: #ffffff;
 }
 
-.banner{
-    background-image: url('../Images/banner1BG.png');
+.banner {
+    background-image: url('../Images/cycle.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 650px;
 }
-.banner-head{
-    font-family:'Rotunda',sans-serif;
+
+.banner-head {
+    font-family: 'Rotunda', sans-serif;
     font-weight: 600;
     font-size: 64px;
     line-height: 84px;
     color: #373844;
 }
-.banner-text{
-    font-family:'Rotunda',sans-serif;
+
+.banner-text {
+    font-family: 'Rotunda', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #373844;
 }
-.pu-form{
-    height: 110px;
+
+.pu-form {
+    height: 120px;
     background-color: #F2F2F2;
     border-radius: 25px;
-    box-shadow: 3px 6px 6px;
- 
+    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.16);
+
 }
-.partner-us{
-    height: 110px;
-    background-color: #F2F2F2;
+
+.partner-us {
+    height: 120px;
+    /* background-color: #F2F2F2; */
     border-radius: 25px;
 
 }
 
-.pu-title{
-    font-family:'Rotunda',sans-serif;
-    font-weight: 500;
+.pu-title {
+    font-family: 'Rotunda', sans-serif;
+    font-weight: 600;
     font-size: 11px;
     line-height: 14px;
     color: #373844;
-    padding: 10px 20px;
+    padding: 15px 20px 10px 20px;
 }
-.pu-select{
-    height:35px ;
+
+.pu-select {
+    height: 35px;
     border-radius: 25px;
-    box-shadow: 0px 3px 6px;
+    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.16);
 }
-select#specificSizeSelect{
-    font-family:'Rotunda',sans-serif;
+
+select#specificSizeSelect {
+    font-family: 'Rotunda', sans-serif;
     font-weight: 500;
     font-size: 10px;
     line-height: 13px;
-    
+
 }
-.pu-jon{
-    font-family:'Rotunda',sans-serif;
+
+.pu-jon {
+    font-family: 'Rotunda', sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     color: #ffffff !important;
     background-color: #FE6B01 !important;
-   
+
 }
 
 .homesercard {
-  margin-top: -120px;
+    margin-top: -120px;
 }
-.benefite-head{
-    font-family:'Rotunda',sans-serif;
+
+.benefite-head {
+    font-family: 'Rotunda', sans-serif;
     font-weight: bold;
     font-size: 44px;
     line-height: 56px;
-  
+
 }
-.benefite-img{
+
+.benefite-img img {
     height: 36px;
+    object-fit: contain;
 }
-.benefite-title{
-    font-family:'Rotunda',sans-serif;
+
+.benefite-title {
+    font-family: 'Rotunda', sans-serif;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 41px;
     color: #FE6B01;
 }
-.benefite-text{
-    font-family:'Rotunda',sans-serif;
+
+.benefite-text {
+    font-family: 'Rotunda', sans-serif;
     font-weight: bold;
     font-size: 12px;
     line-height: 13px;
     color: #7E7C7A;
+    padding: 0 20px;
 }
-.any-query{
+
+.any-query {
     background-color: #FE6B01;
     margin-top: 90px;
 }
-.any-query-head{
-    font-family:'Rotunda',sans-serif;
+
+.any-query-head {
+    font-family: 'Rotunda', sans-serif;
     font-weight: bold;
     font-size: 46px;
     line-height: 59px;
     color: #ffffff;
 }
-.any-query-title{
-    font-family:'Rotunda',sans-serif;
+
+.any-query-title {
+    font-family: 'Rotunda', sans-serif;
     font-weight: bold;
     font-size: 40px;
     line-height: 51px;
     color: #ffffff;
 }
-.any-query-btn{
+
+.any-query-btn {
     height: 36px;
-    font-family:'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
     font-weight: bold;
     font-size: 11px;
     line-height: 20px;
     color: #FE6B01 !important;
 }
 
-.map-head{
-    font-family:'Rotunda',sans-serif;
+.map-head {
+    font-family: 'Rotunda', sans-serif;
     font-weight: bold;
     font-size: 34px;
     line-height: 43px;
@@ -197,33 +219,58 @@ select#specificSizeSelect{
 }
 
 /* Slider Img */
-.img-slider{
+.img-slider {
     margin-top: -100px;
 }
 
+button.splide__arrow {
+    border: 2px solid #fff;
+    background: #0000;
+}
+
+button.splide__arrow svg {
+    fill: #fff;
+
+}
+
+.splide__pagination {
+    bottom: unset;
+    left: 0;
+    padding: 0 0em;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    margin-top: 10px;
+}
+
 .carousel {
-	padding: 0 70px;
+    padding: 0 70px;
 }
+
 .carousel .carousel-item {
-	color: #999;
-	font-size: 14px;
-	text-align: center;
-	overflow: hidden;
-	min-height: 290px;
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
 }
-.carousel-item img{
+
+.carousel-item img {
     height: 300px;
 }
-.carousel-indicators li.active {	
-	background: rgb(0, 0, 0);		
-	
-} 
+
+.carousel-indicators li.active {
+    background: rgb(0, 0, 0);
+
+}
+
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
     width: 15px;
     height: 15px;
-    border-radius: 50%;;
+    border-radius: 50%;
+    ;
     padding: 0;
     margin-right: 6px;
     margin-left: 4px;
@@ -236,8 +283,9 @@ select#specificSizeSelect{
     border-bottom: 10px solid transparent;
     opacity: .5;
     transition: opacity .6s ease;
-    
+
 }
+
 .carousel-indicators [data-bs-target].active {
     box-sizing: content-box;
     flex: 0 1 auto;
@@ -256,7 +304,7 @@ select#specificSizeSelect{
     border-bottom: 10px solid transparent;
     opacity: .5;
     transition: opacity .6s ease;
-    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-indicators {
@@ -273,17 +321,20 @@ select#specificSizeSelect{
     margin-left: 15%;
     list-style: none;
 }
+
 /* 768 */
 /* =========================================================  Media Query max-width: 768x =============================================================== */
 @media only screen and (max-width: 768px) {
     .homesercard {
         margin-top: 0px;
-         margin: 20px 0;
-      }
-    .img-slider{
+        margin: 20px 0;
+    }
+
+    .img-slider {
         margin-top: 50px;
     }
 }
+
 /* =========================================================  Media Query max-width: 576px =============================================================== */
 @media only screen and (max-width: 576px) {
     .pu-form {

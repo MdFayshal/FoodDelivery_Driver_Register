@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Bold'), local('Rotunda-Bold'),
@@ -7,7 +6,8 @@
         url('/fonts/Rotunda-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Medium'), local('Rotunda-Medium'),
@@ -27,15 +27,17 @@
     font-weight: 400;
     font-style: normal;
 }
+
 * {
-    font-family: 'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
 }
-body{
+
+body {
     background-color: #FE6B01;
 }
 
 
-.des-box{
+.des-box {
     margin-top: 180px;
 }
 
@@ -48,5 +50,5 @@ body{
     display: flex;
     justify-content: center;
     border-radius: 25px;
- 
+
 }

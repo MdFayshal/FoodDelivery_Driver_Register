@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Bold'), local('Rotunda-Bold'),
@@ -7,7 +6,8 @@
         url('/fonts/Rotunda-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Medium'), local('Rotunda-Medium'),
@@ -27,14 +27,17 @@
     font-weight: 400;
     font-style: normal;
 }
+
 * {
-    font-family: 'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
 }
-body{
+
+body {
     background-color: #FE6B01;
-    
+
 }
-.shift-head{
+
+.shift-head {
     background-color: #FE6B01;
     color: #fff;
     border-radius: 25px;
@@ -42,9 +45,10 @@ body{
     font-weight: 400;
     line-height: 26px;
 }
+
 .form {
     position: relative;
-   
+
 }
 
 .form .fa-search {
@@ -59,7 +63,7 @@ body{
     right: 17px;
     top: 13px;
     padding: 2px;
-   
+
 }
 
 .left-pan {
@@ -75,7 +79,7 @@ body{
     height: 55px;
     text-indent: 33px;
     border-radius: 25px !important;
-   
+
 }
 
 .form-input:focus {
@@ -83,7 +87,7 @@ body{
     border: none
 }
 
-.s-tbl{
+.s-tbl {
     border: 1px solid #FE6B01;
     border-radius: 10px;
     height: 44px;
@@ -91,21 +95,24 @@ body{
     line-height: 31px;
 }
 
-.date tr{
+.date tr {
     color: #FE6B01 !important;
-    
+
 }
-.shift-t{
+
+.shift-t {
     border: 1px solid #FE6B01;
     border-radius: 10px;
     height: 44px;
 }
-.shift-t td{
-    color:#656A6F;
+
+.shift-t td {
+    color: #656A6F;
     font-size: 17px;
     line-height: 21px;
 }
-.btn{
+
+.btn {
     border-radius: 10px;
     background-color: #FE6B01;
     color: #fff;
@@ -113,38 +120,44 @@ body{
     line-height: 34px;
     height: 44px;
 }
-.btn:hover{
+
+.btn:hover {
     color: #fff;
 }
+
 /* =========================================================  Media Query max-width: 991x =============================================================== */
 @media only screen and (max-width: 991px) {
-    .shift-head{
+    .shift-head {
         font-size: 19px;
 
     }
 }
+
 /* =========================================================  Media Query max-width: 767x =============================================================== */
 @media only screen and (max-width: 767px) {
-    .shift-head{
+    .shift-head {
         font-size: 19px;
 
     }
+
     .col-md-10 {
         padding: 0 50px;
     }
 }
+
 /* =========================================================  Media Query max-width: 576px =============================================================== */
 @media only screen and (max-width: 576px) {
 
-    .shift-t td{
+    .shift-t td {
 
         font-size: 12px;
-  
+
     }
-    .btn{
+
+    .btn {
 
         font-size: 10px;
-    
+
     }
-    
+
 }

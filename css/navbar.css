@@ -6,7 +6,8 @@
         url('/fonts/Rotunda-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Medium'), local('Rotunda-Medium'),
@@ -26,20 +27,23 @@
     font-weight: 400;
     font-style: normal;
 }
-*{
-    font-family:'Rotunda',sans-serif;
+
+* {
+    font-family: 'Rotunda', sans-serif;
 }
 
-nav{
+nav {
     padding: 20px;
     background-color: #FE6B01 !important;
-    
+
 }
-nav ul li{
+
+nav ul li {
     margin-top: 10px;
 }
-.nav-item a.nav-link{
-    font-family:'Rotunda',sans-serif;
+
+.nav-item a.nav-link {
+    font-family: 'Rotunda', sans-serif;
     color: #fff !important;
     font-weight: bold;
     border-radius: 25px;
@@ -47,6 +51,7 @@ nav ul li{
     margin: 5px;
 
 }
+
 /* nav ln icon */
 span.flag-icon {
     background-position: center;
@@ -58,20 +63,19 @@ span.flag-icon {
     padding-top: 4px;
 }
 
-.nav-item a.nav-link.active, .nav-item a.nav-link:hover{
+.nav-item a.nav-link.active,
+.nav-item a.nav-link:hover {
     border-radius: 25px;
-    font-family:'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
     color: #FE6B01 !important;
     font-weight: bold;
     background-color: #fff !important;
-    
+
 
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
     background-color: #ffffff;
     color: #FE6B01;
 }
-
-
-

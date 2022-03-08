@@ -15,7 +15,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Nav lng flag icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css">
-<!-- datepickker -->
+    <!-- datepickker -->
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <!--  CSS -->
     <!-- Nav -->
@@ -24,8 +24,6 @@
     <link rel="stylesheet" href="css/footer.css">
     <!-- custom css -->
     <link rel="stylesheet" href="css/analytics.css">
-
-
 
     <title>food</title>
 </head>
@@ -83,24 +81,32 @@
     <!-- Earn section -->
     <section class="earn">
         <div class="container mt-5">
-            <h2 class=" text-uppercase ern-head">Analytics</h2>
+            <h2 class=" ern-head">Analytics</h2>
             <div class="contain bg-light shadow">
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-4 row-cols-lg-4 row-cols-xl-4 py-4">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-4 row-cols-lg-4 row-cols-xl-4">
                     <div class="col text-center earn-col">
-                        <a class=" text-decoration-none" href="#"><span class="text-uppercase ">Earnings</span>
-                            <br><span>1250</span></a>
+                        <a class=" text-decoration-none" href="#"><span class=" ">Earnings</span>
+                            <br>
+                            <p>$313.60</p>
+                        </a>
                     </div>
                     <div class="col text-center earn-col">
-                        <a class=" text-decoration-none" href="#"><span class="text-uppercase ">Orders completed</span>
-                            <br><span>1250</span></a>
+                        <a class=" text-decoration-none" href="#"><span class=" ">Orders completed</span>
+                            <br>
+                            <p>7</p>
+                        </a>
                     </div>
                     <div class="col text-center earn-col">
-                        <a class=" text-decoration-none" href="#"><span class="text-uppercase ">Orders cancel</span>
-                            <br><span>1250</span></a>
+                        <a class=" text-decoration-none" href="#"><span class=" ">Orders cancel</span>
+                            <br>
+                            <p>0</p>
+                        </a>
                     </div>
                     <div class="col text-center ">
-                        <a class=" text-decoration-none" href="#"><span class="text-uppercase ">Earned in January</span>
-                            <br><span>1250</span></a>
+                        <a class=" text-decoration-none" href="#"><span class=" ">Earned in January</span>
+                            <br>
+                            <p>$100.00</p>
+                        </a>
                     </div>
 
                 </div>
@@ -132,6 +138,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="analytic-list mt-4">
+                    <ul>
+                        <li><i class="fa-solid fa-circle Earned"></i>Earned $20</li>
+                        <li><i class="fa-solid fa-circle Cancelled"></i>Cancelled $0</li>
+                        <li><i class="fa-solid fa-circle Completed"></i>Completed 7</li>
+                        <li><i class="fa-solid fa-circle New-Order"></i>New Order 1</li>
+                        <li><i class="fa-solid fa-circle Trip"></i>Trip 7</li>
+                    </ul>
+                </div>
                 <div class="card chart-container pt-3">
                     <canvas id="chart"></canvas>
                 </div>
@@ -142,38 +157,40 @@
     <!-- Table -->
     <section class=" tbl pb-5">
         <div class="container mt-5 ">
-            <table class="table table-borderless text-capitalize px-5 ">
-                <thead>
-                    <tr>
+            <div class="analytic-tbl">
+                <table class="table table-borderless text-capitalize  ">
+                    <thead>
+                        <tr>
 
-                        <th class="col-md-10 col-xs-10 text-start">Earnings</th>
-                        <th class="col-md-2 col-xs-2  text-end">$20.00</th>
+                            <th class="col-md-10 col-xs-10 text-start">Earnings</th>
+                            <th class="col-md-2 col-xs-2  text-end">$20.00</th>
 
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>TripFares</td>
-                        <td class="text-end">$20.00(100%)</td>
-                    </tr>
-                    <tr>
-                        <td>Rewards</td>
-                        <td class="text-end">$0.00(0%)</td>
-                    </tr>
-                    <tr>
-                        <td>Tips</td>
-                        <td class="text-end">$0.00(0%)</td>
-                    </tr>
-                    <tr>
-                        <td>Cancellation Fees</td>
-                        <td class="text-end">$0.00(0%)</td>
-                    </tr>
-                    <tr>
-                        <td>Others</td>
-                        <td class="text-end">$0.00(0%)</td>
-                    </tr>
-                </tbody>
-            </table>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>TripFares</td>
+                            <td class="text-end">$20.00(100%)</td>
+                        </tr>
+                        <tr>
+                            <td>Rewards</td>
+                            <td class="text-end">$0.00(0%)</td>
+                        </tr>
+                        <tr>
+                            <td>Tips</td>
+                            <td class="text-end">$0.00(0%)</td>
+                        </tr>
+                        <tr>
+                            <td>Cancellation Fees</td>
+                            <td class="text-end">$0.00(0%)</td>
+                        </tr>
+                        <tr>
+                            <td>Others</td>
+                            <td class="text-end">$0.00(0%)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 
@@ -212,12 +229,18 @@
                 <div class="col d-flex justify-content-end mt-2">
                     <ul>
                         <li> <a href="#">Follow Us</a> </li>
-                        <li class="f-icon"><a href=""> <i class="fab fa-instagram"></i></a> <a href=""><i
-                                    class="fab fa-facebook"></i></a><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <!-- <li class="f-icon"><a href=""> <i class="fab fa-instagram"></i></a> <a href=""><i
+                                        class="fab fa-facebook"></i></a><a href=""><i class="fab fa-twitter"></i></a></li> -->
+                        <li class="f-icon"><a href="">
+                                <img class=" img-fluid" src="Images/footer-insta.png" alt=""></a>
+                            <img class=" img-fluid" src="Images/footer-fb.png" alt=""></a>
+                            <img class=" img-fluid" src="Images/footer-twiter.png" alt=""></a>
+                        </li>
+
                         <li> <a href="#">Download the app</a></li>
-                        <li class="f-img"> <a class=" img-fluid " href="#"><img src="Images/plystore.png" alt=""></a><a
-                                class=" img-fluid " href="#"><img src="Images/apple.png" alt=""></a><a
-                                class=" img-fluid " href="#"><img src="Images/shopstore.png" alt=""></a></li>
+                        <li class="f-img"> <a class=" img-fluid " href="#"><img src="Images/app-apple.png" alt=""></a><a
+                                class=" img-fluid " href="#"><img src="Images/app-googleplay.png" alt=""></a><a
+                                class=" img-fluid " href="#"><img src="Images/app-huawei.png" alt=""></a></li>
                     </ul>
                 </div>
             </div>
@@ -236,9 +259,9 @@
     <script src="js/bootstrap-datepicker.js"></script>
     <!-- date picker -->
     <script>
-        $('.input-daterange input').each(function() {
-    $(this).datepicker('clearDates');
-});
+        $('.input-daterange input').each(function () {
+            $(this).datepicker('clearDates');
+        });
     </script>
     <!-- chart -->
     <script>
@@ -268,8 +291,6 @@
                 }
             },
         });
-
-
     </script>
 
 

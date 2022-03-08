@@ -27,54 +27,83 @@
     font-weight: 400;
     font-style: normal;
 }
+
 * {
-    font-family: 'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
 }
-.footer{
+
+.footer {
     background: #fff;
-    
+
 }
-.footer ul li , .footer ul li a{
+
+.footer ul li,
+.footer ul li a {
     text-decoration: none;
     list-style-type: none;
     font-size: 19px;
     color: #272C2F !important;
     font-weight: 500;
-   
+
 }
-.footer ol, ul {
+
+.footer ol,
+ul {
     padding-left: 3rem;
 }
+
 .footer ul li {
     margin-top: 10px;
 }
 
-.footer img.f-logo{
+.footer img.f-logo {
     height: 30px;
     margin: 10px 0;
     padding-left: 3rem;
+
 }
-.f-icon a i{
-    padding-right: 15px;
+
+.f-icon a i {
+    padding-right: 25px;
 }
-.f-img a img{
+
+.f-icon img {
+    height: 30px;
+    object-fit: contain;
+    padding-right: 25px;
+    image-rendering: -moz-crisp-edges;
+    /* Firefox */
+    image-rendering: -o-crisp-edges;
+    /* Opera */
+    image-rendering: -webkit-optimize-contrast;
+    /* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    /* IE (non-standard property) */
+}
+
+.f-img a img {
     height: 30px;
     padding-right: 15px;
     margin-top: 10px;
-    
+    image-rendering: -moz-crisp-edges;
+    /* Firefox */
+    image-rendering: -o-crisp-edges;
+    /* Opera */
+    image-rendering: -webkit-optimize-contrast;
+    /* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    /* IE (non-standard property) */
+
 
 }
+
 /* =========================================================  Media Query max-width: 991x =============================================================== */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {}
 
-}
 /* =========================================================  Media Query max-width: 767x =============================================================== */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {}
 
-}
 /* =========================================================  Media Query max-width: 576px =============================================================== */
-@media only screen and (max-width: 576px) {
-
-
-    
-}
+@media only screen and (max-width: 576px) {}

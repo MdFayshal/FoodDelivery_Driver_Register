@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Bold'), local('Rotunda-Bold'),
@@ -7,7 +6,8 @@
         url('/fonts/Rotunda-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Medium'), local('Rotunda-Medium'),
@@ -27,13 +27,16 @@
     font-weight: 400;
     font-style: normal;
 }
+
 * {
-    font-family: 'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
 }
-body{
+
+body {
     background-color: #FE6B01;
     color: #A19D9D;
 }
+
 .ap-contain {
     border: none;
     box-shadow: 0px 5px 20px 0px #00000027;
@@ -41,72 +44,87 @@ body{
     border-radius: 16px;
     padding: 30px;
     background-color: #fff;
- 
+
 }
-.anual-head{
+
+.anual-head {
     font-size: 25px;
     line-height: 10px;
-    font-weight: 600;
+    font-weight: 400;
     color: #FE6B01;
 
 }
-.anual-head-text{
+
+.anual-head-text {
     font-size: 16px;
     line-height: 28px;
-    font-weight: 600;
+    font-weight: 400;
     color: #C6C6C6;
+    width: 80%;
 
 }
-.anual-head-btn{
+
+.anual-head-btn {
     font-size: 18px;
     line-height: 21px;
-    color:#FE6B01 !important;
+    color: #FE6B01 !important;
     background-color: #fff;
     border-radius: 16px;
+    font-weight: 400;
 }
+
 select#specificSizeSelect {
     border-radius: 10px;
-    
+    color: #A19D9D;
+
 }
-select.month-select{
+
+select.month-select {
     width: 180px;
 }
-.date-select{
+
+.date-select {
     width: 100px;
 }
+
 .show-select .pu-select {
     color: #A19D9D;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border-radius: 14px;
     font-size: 17px;
     line-height: 19px;
+    font-weight: 400;
 
 }
 
-.show-select option{
+.show-select option {
     color: #A19D9D;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
-.s-btn{
+
+.s-btn {
     font-size: 18px;
     line-height: 21px;
-    color:#FE6B01 !important;
+    color: #FE6B01 !important;
     background-color: #fff;
     border-radius: 10px;
 }
-.ap-table .ap-header{
+
+.ap-table .ap-header {
     font-family: 'Rotunda';
     font-weight: 400;
     font-size: 30px;
     line-height: 16px;
-    color:#FE6B01 ;
+    color: #FE6B01;
 
 
 }
-.anual-tax-table{
+
+.anual-tax-table {
     background-color: #ffffff;
     border-radius: 16px;
 }
+
 .ap-table table th {
     color: #A19D9D !important;
     font-family: 'Rotunda';
@@ -114,48 +132,64 @@ select.month-select{
     font-size: 15px;
     line-height: 18px;
 }
+
 .ap-table table td {
-    color: #000000 ;
+    color: #000000;
     font-family: 'Rotunda';
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     border-bottom: 1px solid #807E7E;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 0px;
 }
-.ap-table .lbl{
+
+.ap-table p {
+    padding: 0;
+    margin: 0px;
+}
+
+.ap-table .lbl {
     color: #A19D9D;
     font-size: 11px;
     line-height: 12px;
+    padding-bottom: 10px;
 }
-.ap-table .tbl-btn{
+
+.ap-table .tbl-btn {
     font-size: 18px;
     line-height: 21px;
-    color:#ffffff !important;
+    color: #ffffff !important;
     background-color: #FE6B01;
     border-radius: 12px;
 }
-.tbl-date-hdr-btn{
+
+.tbl-date-hdr-btn {
     color: #A19D9D;
     font-size: 21px;
 }
-.tbl-date-hdr-btn.active{
+
+.tbl-date-hdr-btn.active {
     color: #A19D9D;
     border-bottom: 3px solid #807E7E;
     width: 186px;
 }
-.tbl-date-hdr-btn:hover{ 
+
+.tbl-date-hdr-btn:hover {
     color: #A19D9D;
     border-bottom: 3px solid #807E7E;
     width: 186px;
 }
-.ap-table table a.view{
-    color: #FE6B01 ;
+
+.ap-table table a.view {
+    color: #FE6B01;
 }
-.ap-table table td.amount{
-    color:#FE6B01 ;
+
+.ap-table table td.amount {
+    color: #FE6B01;
+    text-align: end;
 }
+
 /* .ap-table .btn{
     background-color: #ffffff;
     color:#FE6B01 !important;
@@ -169,7 +203,8 @@ select.month-select{
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
 }
+
 .results {
     background-color: #fff !important;
-    
+
 }

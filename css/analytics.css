@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Bold'), local('Rotunda-Bold'),
@@ -7,7 +6,8 @@
         url('/fonts/Rotunda-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Medium'), local('Rotunda-Medium'),
@@ -27,73 +27,139 @@
     font-weight: 400;
     font-style: normal;
 }
+
 * {
-    font-family: 'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
 }
-body{
+
+body {
     background-color: #FE6B01;
     color: #A19D9D;
 }
-.ern-head{
+
+.ern-head {
     font-family: 'Rotunda';
     color: #FFF;
     font-weight: 400;
     font-size: 34px;
     line-height: 39px;
 }
-.earn .contain{
+
+.earn .contain {
     border-radius: 20px;
     background-color: #fff;
     color: #FE6B01;
- 
+
 }
 
-.earn-col{
-    border-right: 1px solid #707070;
-    
+.earn p {
+    font-size: 31px;
+    line-height: 40px;
+    font-weight: 400px;
+    padding-top: 5px;
+    color: #000;
 }
-.earn .col a{ 
+
+.earn-col {
+    border-right: 1px solid #707070;
+
+}
+
+.earn .col a {
     color: #9E9C9C !important;
     font-family: 'Rotunda';
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
 }
-.earn .col a:hover{
-    color: #FE6B01 !important;
+
+.earn .col a:hover {
+    color: #9E9C9C !important;
 }
-.earn .col a.active{
-    color: #FE6B01 !important;
+
+.earn .col a.active {
+    color: #9E9C9C !important;
 }
-.contain{
-    background-color:#fff;
+
+.contain {
+    background-color: #fff;
     border-radius: 10px;
-    padding: 50px;
+    padding: 25px;
 }
 
 .contain .card {
     border: 0px solid #e2e2e2;
 }
-.tbl table tr td,.tbl table tr th{
+
+.analytic-list ul {
+    padding: 0;
+}
+
+.analytic-list ul li {
+    display: inline;
+    text-align: justify;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    margin-right: 50px;
+    color: #747475;
+}
+
+.analytic-list ul li i {
+    font-size: 13px;
+    line-height: 13px;
+    padding-right: 10px;
+}
+
+.analytic-list ul li i.Earned {
+    color: #75DFEE;
+}
+
+.analytic-list ul li i.Cancelled {
+    color: #747475;
+}
+
+.analytic-list ul li i.Completed {
+    color: #284389;
+}
+
+.analytic-list ul li i.New-Order {
+    color: #1DBF73;
+}
+
+.analytic-list ul li i.Trip {
+    color: #75DFEE;
+}
+
+
+
+.tbl table tr td,
+.tbl table tr th {
     padding: 10px 20px;
-} 
-.tbl table {
+}
+
+.analytic-tbl {
     border-radius: 10px;
     background-color: #FFF;
-} 
-.overview{
+    padding: 30px;
+}
+
+.overview {
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     color: #747475;
 }
-.chart-day-select{
+
+.chart-day-select {
     border: 0 !important;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     color: #747475;
 }
+
 .input-group {
     position: relative;
     display: flex;
@@ -101,6 +167,7 @@ body{
     align-items: stretch;
     width: 50%;
 }
+
 .input-group-addon {
     /* margin-top: 10px; */
     /* margin-left: 20px !important; */

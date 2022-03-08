@@ -6,7 +6,8 @@
         url('/fonts/Rotunda-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Medium'), local('Rotunda-Medium'),
@@ -26,43 +27,64 @@
     font-weight: 400;
     font-style: normal;
 }
-*{
-    font-family:'Rotunda',sans-serif;
+
+* {
+    font-family: 'Rotunda', sans-serif;
 }
-.bc-head{
-    font-family:'Rotunda',sans-serif;
+
+.bc-head {
+    font-family: 'Rotunda', sans-serif;
     font-size: 30px;
     line-height: 36px;
-    font-weight:500;
+    font-weight: 500;
     color: #1A1818;
+    width: 50%;
 }
-.bc-img{
+
+.bc-img {
     height: 60px;
 }
-.numbering{
-    font-family:'Rotunda',sans-serif;
-    font-size: 17px;
-    line-height: 20px;
-    font-weight:500;
+
+.bc-img img {
+    height: 60px;
+}
+
+.numbering {
+    font-family: 'Rotunda', sans-serif;
+    font-size: 17px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
     color: #000000;
 }
-.bc-content{
-    font-family:'Rotunda',sans-serif;
+
+.bc-content {
+    font-family: 'Rotunda', sans-serif;
     font-size: 16px;
     line-height: 20px;
-    font-weight:400;
+    font-weight: 400;
     color: #000000 !important;
+
 }
-.bc-btn{
-    font-family:'Rotunda',sans-serif;
+
+.bc-btn {
+    font-family: 'Rotunda', sans-serif;
     font-size: 16px;
     line-height: 15px;
-    font-weight:400;
+    font-weight: 400;
     color: #000000 !important;
 }
-ul li{
+
+.bc-note {
+    font-family: 'Rotunda', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* ul li{
     list-style-type: none;
-}
-ul li a.list-style{
+} */
+/* ul li a.list-style{
     text-decoration: none;
-}
+} */

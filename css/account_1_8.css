@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Bold'), local('Rotunda-Bold'),
@@ -7,7 +6,8 @@
         url('/fonts/Rotunda-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 @font-face {
     font-family: 'Rotunda';
     src: local('Rotunda Medium'), local('Rotunda-Medium'),
@@ -27,10 +27,12 @@
     font-weight: 400;
     font-style: normal;
 }
+
 * {
-    font-family: 'Rotunda',sans-serif;
+    font-family: 'Rotunda', sans-serif;
 }
-body{
+
+body {
     background-color: #FE6B01;
     color: #fff;
 }
@@ -40,23 +42,27 @@ body{
     position: relative;
     padding: 1.5rem 0 1rem
 }
+
 .HDAW-head {
     margin-left: 60px;
     font-size: 28px;
     line-height: 14px;
 }
-.HDAW-title{
+
+.HDAW-title {
     font-size: 20px;
     line-height: 14px;
     color: #fff;
     margin-left: 10px;
 }
-.HDAW-text{
+
+.HDAW-text {
     font-size: 20px;
     line-height: 26px;
     color: #fff;
-    
+
 }
+
 .vertical-timeline::before {
     content: '';
     position: absolute;
@@ -98,7 +104,7 @@ body{
     content: '';
     width: 10px;
     height: 10px;
-   
+
     position: absolute;
     left: 50%;
     top: 50%;
@@ -138,8 +144,9 @@ body{
     display: table;
     clear: both
 }
-.vertical-timeline:last-child::before  {
+
+.vertical-timeline:last-child::before {
 
     width: 0px;
-   
+
 }
