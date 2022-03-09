@@ -195,13 +195,13 @@ button.accordion-button {
 }
 
 .accordion-button::after {
-    background-image: url('/Images/chevron-down-solid.svg');
-
+    background-image: url('../Images/chevron-down-solid.svg');
+    
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url('/Images/chevron-up-solid.svg');
-
+    background-image: url('../Images/chevron-up-solid.svg');
+    
     transform: rotate(-0deg);
 }
 
@@ -211,7 +211,7 @@ button.accordion-button {
     font-weight: 400;
     font-size: 20px !important;
     font-style: normal;
-    list-style: 20px;
+    line-height: 20px;
 }
 
 .accordion-body {

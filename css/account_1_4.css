@@ -36,7 +36,7 @@ body {
     background-color: #FE6B01;
 }
 
-.card {
+.side-history .card {
     border: none;
     box-shadow: 0px 5px 20px 0px #000000;
     z-index: 1;
@@ -61,7 +61,7 @@ body {
 
 }
 
-table {
+.side-history table {
     color: #A19D9D !important;
 
     font-family: 'Rotunda';
@@ -70,12 +70,12 @@ table {
     line-height: 21px;
 }
 
-table a {
+.side-history table a {
     color: #1DBF73 !important;
     padding-left: 10px;
 }
 
-table td.amount {
+.side-history table td.amount {
     color: #FE6B01;
     text-align: end;
 }
@@ -86,7 +86,7 @@ table td.amount {
     padding: 10px 20px;
 }
 
-.btn {
+.side-history .btn {
     background-color: #fff;
     color: #FE6B01;
     font-family: 'Rotunda';
